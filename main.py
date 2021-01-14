@@ -1,6 +1,6 @@
 import random, string
 
-amount = int(input('Amount of nitro codes to generate: '))
+amount = int(input('Amount of nitro codes to generate:1000'))
 value = 1
 while value <= amount:
     code = "https://discord.gift/" + ('').join(random.choices(string.ascii_letters + string.digits, k=16))
